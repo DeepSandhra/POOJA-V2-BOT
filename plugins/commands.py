@@ -25,16 +25,23 @@ async def start(client, message: pyrogram.types.Message):
 
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-        InlineKeyboardButton('❄️ 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ❄️', url=f'https://t.me/+MNczoLfGDYM1ZmEx') ] ,
-       [
-        InlineKeyboardButton('🎬 𝙼𝙾𝚅𝙸𝙴 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MOVIESHUB_WA'),
-        InlineKeyboardButton('🤖 𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/TG_BOTS_HUB')
-     ],[
-        InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help'),
-        InlineKeyboardButton('😊 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-     ],[
-        InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close')    
-    ]]
+            InlineKeyboardButton('Aᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙱𝙾𝚃 🎬', url='https://t.me/MovieRequestGroup_rebot')
+            ],[
+            InlineKeyboardButton('♥Mʏ ɢʀᴏᴜᴘ♥', url='https://t.me/Movies_hunt_2022')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ 📥', url='https://t.me/Movies_DATABASE_2022'),
+            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 𝙼𝙾𝚅𝙸𝙴🔎', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton(' Cᴏɴᴛᴀᴄᴛ😎 ', url='https://t.me/movi2x'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ🗃️', url='https://t.me/MovieRequestGroup_rebot')
+            ],[      
+            InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),
+            InlineKeyboardButton('📛 ΛBOUT 📛', callback_data='about')
+            ],[
+            InlineKeyboardButton('✅ 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎  ✅', url='https://youtube.com/channel/UC36Y9w_AM4H_ZWipKUg93QQ')
+        ]]
        
         reply_markup = InlineKeyboardMarkup(buttons)
         if not START_IMAGE_URL:
@@ -76,16 +83,23 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) != 2:
 
         buttons = [[
-        InlineKeyboardButton('❄️ 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ❄️', url=f'https://t.me/+MNczoLfGDYM1ZmEx') ] ,
-       [
-        InlineKeyboardButton('🎬 𝙼𝙾𝚅𝙸𝙴 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MOVIESHUB_WA'),
-        InlineKeyboardButton('🤖 𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/TG_BOTS_HUB')
-     ],[
-        InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help'),
-        InlineKeyboardButton('😊 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-     ],[
-        InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close')    
-    ]]
+            InlineKeyboardButton('Aᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙱𝙾𝚃 🎬', url='https://t.me/MovieRequestGroup_rebot')
+            ],[
+            InlineKeyboardButton('♥Mʏ ɢʀᴏᴜᴘ♥', url='https://t.me/Movies_hunt_2022')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ 📥', url='https://t.me/Movies_DATABASE_2022'),
+            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 𝙼𝙾𝚅𝙸𝙴🔎', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton(' Cᴏɴᴛᴀᴄᴛ😎 ', url='https://t.me/movi2x'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ🗃️', url='https://t.me/MovieRequestGroup_rebot')
+            ],[      
+            InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),
+            InlineKeyboardButton('📛 ΛBOUT 📛', callback_data='about')
+            ],[
+            InlineKeyboardButton('✅ 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎  ✅', url='https://youtube.com/channel/UC36Y9w_AM4H_ZWipKUg93QQ')
+        ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
 
@@ -131,10 +145,10 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
 
         buttons = [[
-        InlineKeyboardButton('❄️ 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ❄️', url=f'https://t.me/+MNczoLfGDYM1ZmEx') ] ,
+        InlineKeyboardButton('❄️ 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ❄️', url=f'https://t.me/Movies_hunt_2022') ] ,
        [
-        InlineKeyboardButton('🎬 𝙼𝙾𝚅𝙸𝙴 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MOVIESHUB_WA'),
-        InlineKeyboardButton('🤖 𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/TG_BOTS_HUB')
+        InlineKeyboardButton('🎬 𝙼𝙾𝚅𝙸𝙴 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/Movies_hunt_2022'),
+        InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ 📀', url='https://t.me/Movies_DATABASE_2022')
      ],[
         InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help'),
         InlineKeyboardButton('😊 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
