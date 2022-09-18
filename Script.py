@@ -1,9 +1,9 @@
 class script(object):
     START_TXT = """Hᴇʏ {}👋
 
-I ᴀᴍ "𝑷𝒐𝒐𝒋𝒂 🦋" ʏᴏᴜ ᴄᴀɴ ᴄᴀʟʟ ᴍᴇ ᴀs Aᴜᴛᴏғɪʟᴛᴇʀʙᴏᴛ V𝟹
+I ᴀᴍ "Nxᴛ Lᴇᴠᴇʟ Bᴏᴛ ⭐" ʏᴏᴜ ᴄᴀɴ ᴄᴀʟʟ ᴍᴇ ᴀs Aᴜᴛᴏғɪʟᴛᴇʀʙᴏᴛ V𝟹
 
-Exᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴛʜᴇ ᴛᴇᴀᴍ <a href='https://t.me/+MNczoLfGDYM1ZmEx'>𝐌𝐎𝐕𝐈𝐄𝐒𝐇𝐔𝐁</a>....❕
+Exᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴛʜᴇ ᴛᴇᴀᴍ <a href='https://t.me/Movies_hunt_2022'>♥Mʏ ɢʀᴏᴜᴘ♥</a>....❕
 """
     HELP_TXT = """<b>𝙷𝙴𝚈 {}👋
           𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>
@@ -17,8 +17,8 @@ Exᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴛʜᴇ ᴛᴇᴀᴍ <a href='http
 """
    
     ABOUT_TXT = """
-○ My Name : Elsa
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/XYZ55555'>ᴍᴇ</a>
+○ My Name : Nxᴛ Lᴇᴠᴇʟ Bᴏᴛ ⭐
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/movi2x'>ᴍᴇ</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Heroku
@@ -26,11 +26,11 @@ Exᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴛʜᴇ ᴛᴇᴀᴍ <a href='http
 ○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵10 [BeTa]
 """
     SOURCE_TXT = """<b>NOTE:</b>
-- Pooja 𝖨𝗌 𝖺 Not an 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍
+- Nxᴛ Lᴇᴠᴇʟ Bᴏᴛ ⭐ 𝖨𝗌 𝖺 Not an 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍
 
 Devs:
 
-» <a href='https://t.me/XYZ55555'>ᴍᴇ</a>
+» <a href='https://t.me/movi2x'>ᴍᴇ</a>
 """ 
     TTS_TXT = """<b>TEXT TO SPEACH</b>
 Simple Telegram Text-To-Speech Module.
