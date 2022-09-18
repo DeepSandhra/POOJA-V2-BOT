@@ -584,8 +584,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MOVIESHUB_WA'),
-        InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/TG_BOTS_HUB'),
+        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Movies_DATABASE_2022'),
+        InlineKeyboardButton('Mʏ ɢʀᴏᴜᴘ', url='https://t.me/Movies_hunt_2022'),
         InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -858,7 +858,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('©️ 𝐌𝐎𝐕𝐈𝐄𝐒𝐇𝐔𝐁')
+            return await query.answer('©️ ꜱᴍꜱ ᴀᴄᴄᴇꜱꜱ')
 
         if status == "True" or status == "Chat":
             await save_group_settings(grpid, set_type, False)
