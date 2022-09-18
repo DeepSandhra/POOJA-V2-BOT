@@ -569,7 +569,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.message.delete()
         await query.message.reply_sticker(
-            'CAACAgUAAxkBAAIFFGLlfJseAwW9cBlIuksuuhyFOLFWAAIBAAPBJDExTOWVairA1m8eBA',
+            'CAACAgIAAxkBAAEEdzBjJsfuOtHitCy5zxzV_ar0Rnnz4AAC6BYAAv2LEEra9hZZ9LdRQB4E',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
