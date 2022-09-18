@@ -17,8 +17,8 @@
       "Redirect Bot",
       "Elsa bot"
     ],
-    "website": "https://github.com/BC-Maniac/POOJA-V2-BOT",
-    "repository": "https://github.com/malik7983/POOJA-V2-BOT",
+    "website": "https://github.com/DeepSandhra/POOJA-V2-BOT",
+    "repository": "https://github.com/DeepSandhra/POOJA-V2-BOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
