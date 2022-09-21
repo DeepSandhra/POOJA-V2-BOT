@@ -92,6 +92,9 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
+            InlineKeyboardButton('💽 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 💽', url='https://t.me/Howto_watch/4')
+        ]
+        [
             InlineKeyboardButton(f'💽 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 💽', 'https://t.me/Howto_watch/4')
         ]
     )
