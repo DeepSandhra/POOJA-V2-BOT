@@ -92,7 +92,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'🎞️ {search} 🎞️', 'dupe')
+            InlineKeyboardButton(f'💽 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 💽', 'https://t.me/Howto_watch/4')
         ]
     )
     btn.insert(1,
